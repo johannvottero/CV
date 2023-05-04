@@ -378,7 +378,7 @@ h4{
 .others-container{
   display: flex;
   justify-content: space-around;
-  background-color: lightgrey;
+  background: lightgrey;
   margin-top: 45px;
 }
 
@@ -414,11 +414,13 @@ h4{
 }
 
 .fa-link{
-  color: #00162E;
+  color: white;
 }
 
 .others-container-interest {
-  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .others-container-languages{
@@ -451,9 +453,25 @@ h4{
   align-items: center;
 }
 
-.others-container-interest-element {
-  margin-top: 25px;
+.others-container-interest-element{
+  width: 80%;
+}
+
+.others-container-interest-element div p {
+  margin: 5% 2% 0 0;
+  width: 100%;
+  } 
+  
+
+.others-container-interest-element div {
+display: flex;
+align-items: center;
 } 
+
+.others-container-interest-element__title{
+  width:100%;
+}
+
 
 .flex{
   display: flex;
