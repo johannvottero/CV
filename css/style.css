@@ -309,21 +309,36 @@ h4{
 }
 
 .experience-container-element-yearContainer{
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   align-items:center;
   justify-content: center;
   position: absolute;
-  top: -35px;
-  left: 5px;
+  background-color: white;
+  border: 1px solid #F5613D;
+}
+
+.experience-container-element-yearContainer p{
+color: #F5613D;
 }
 
 .experience__title{
   margin-bottom: 80px;
 }
 
+.start {
+  top: -40px;
+  left: 55px;
+
+}
+
+.ending{
+  top: -40px;
+  left: 260px;
+
+}
 .experience-container-element{
   display: flex;
   align-items: center;
@@ -373,6 +388,7 @@ h4{
   height: 120px;
   display: flex;
   align-items: center;
+  margin-top: 5%;
 }
 
 .others-container{
@@ -442,7 +458,7 @@ h4{
 
 .experience-logo{
   position: absolute;
-  top: -85px;
+  top: -70px;
   border: 2px solid #F5613D;
   background-color: white;
   border-radius: 50%;
@@ -465,7 +481,7 @@ h4{
 
 .others-container-interest-element div {
 display: flex;
-align-items: center;
+align-items: end;
 } 
 
 .others-container-interest-element__title{
