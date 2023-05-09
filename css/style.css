@@ -103,7 +103,7 @@ h4{
   color: white;
   padding-left: 4%;
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .header-container__details {
@@ -135,9 +135,7 @@ h4{
   border: solid 3px white;
 }
 
-.header-container__picture {
-  margin: 15% 0 0 0;
-}
+
 
 .fa-brands {
   font-size: 40px;
@@ -158,7 +156,7 @@ h4{
 }
 
 .header-container-personnal-info-details__element {
-  margin: 25px 0 0 0;
+  margin: 15px 0 0 0;
 }
 
 .education-container-eduction-section{
@@ -215,7 +213,7 @@ h4{
 
 .loading-bar__AN{
   border: 1px solid white;
-  margin: 5% 5%;
+  margin: 4% 4%;
   border-radius: 15px;
   height: 15px;
   position: relative;
@@ -293,7 +291,7 @@ h4{
   display: flex;
   justify-content: space-around;
   padding-top: 5%;
-  gap: 9px;
+  gap: 7px;
 }
 
 .experience-container {
