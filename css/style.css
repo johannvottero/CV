@@ -8,12 +8,12 @@ a{
   color: white;
 }
 
-li{
+li {
   list-style: none;
 }
 
 ul{
-  padding: 4%;
+  padding: 3%;
 }
 
 .primary-color
@@ -34,7 +34,7 @@ ul{
 
 body {
   font-family: Nunito;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .main-container {
@@ -83,7 +83,7 @@ h1 {
 }
 
 h1 span{
-  font-weight: 2000;
+  font-weight: 200;
 }
 
 h2 {
@@ -147,8 +147,7 @@ h4{
 .formation-icon {
   display: flex;
   align-items: center;
-  padding-right: 50px;
-  text-align: center;
+  padding-right: 20px;
 }
 
 
@@ -211,7 +210,7 @@ h4{
 
 .education-container-eduction-section-schools-element__description{
   text-align: center;
-  width: 62%;
+  width: 65%;
 }
 
 .loading-bar__AN{
@@ -346,7 +345,7 @@ font-weight: 400;
   align-items: center;
   width: 95%;
   height: 100%;
-  background: linear-gradient(#F5613D, #ff8668);
+  background-color: #ff7655;
   color: white;
   padding-top: 10%;
   border-radius: 15px;
@@ -359,7 +358,7 @@ font-weight: 400;
 }
 
 .CACIB img {
-  height: 95px;
+  height: 17px;
 }
 
 .hec img{
@@ -376,6 +375,7 @@ font-weight: 400;
 .experience-container-element-descriptionContainer__designation{
   text-align: center;
   border-bottom: 2px solid white;
+  margin-bottom: 2%;
   width: 60%;
   height: 120px;
   display: flex;
