@@ -264,6 +264,10 @@ h4{
   border-left: 50px solid white;
 }
 
+.RGPD {
+  border-left: 15px solid white;
+}
+
 .html{
   border-left: 75px solid white;
 }
@@ -284,7 +288,6 @@ h4{
   display: flex;
   flex-direction: column;
 }
-
 
 .education-container-eduction-section-skills-container{
   display: flex;
@@ -376,10 +379,11 @@ font-weight: 400;
   text-align: center;
   border-bottom: 2px solid white;
   margin-bottom: 2%;
-  width: 60%;
+  width: 80%;
   height: 120px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-top: 5%;
 }
 
