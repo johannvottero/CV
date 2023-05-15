@@ -4,6 +4,7 @@
   display: grid;
 }
 
+
 /* base */
 
 a{
@@ -495,22 +496,38 @@ align-items: end;
 
 @media screen and (max-width: 576px) {
 
-  .grid-container{
+body{
+  display: grid;
+}
+
+h3
+{
+  font-size: 1rem;
+}
+
+  .main-container{
+    width: auto;
+    display: flex;
     flex-direction: column;
-    max-width: 600px;
+    margin: 0;
   }
+
+.others-container-languages {
+  width: 100%;
+}
+
+
+  .others-container {
+    
+  }
+
 
   .A_Propos{
     width: 85%;
   }
 
   .background-color{
-width: 100%;
-  }
-  .main-container{
-    display: flex;
-    flex-direction: column;
-    margin: 2% auto;
+  width: 100%;
   }
 
   .header-container {
@@ -538,24 +555,33 @@ width: 100%;
  }
 
  h2{
-  margin-left: 4%;
+  margin-left: 0%;
  }
 
  .education-container-eduction-section-schools{
   width: 90%;
+  margin: auto;
  }
 
  .education-container-eduction-section-skills{
   width: 90%;
+  margin: auto;
  }
 
  .education-container-eduction-section-schools-container {
-  margin: 0% 0 0 5%;
+  margin: 0;
 }
 .education-container-eduction-section-skills-container{
-  margin: 0% 0 0 5%;
+  margin: 0;
 }
 
+.experience-container-element-descriptionContainer{
+  margin: auto;
+}
+
+.education-container{
+  margin: auto;
+}
 
 .experience-container {
   display: flex;
@@ -564,16 +590,13 @@ width: 100%;
 }
 
 .experience-container-element{
-  width: 95%;
+  width: 100%;
 }
 
 .experience-container-element-descriptionContainer{
   padding: 0;
 }
 
-.others-container {
-  width: 600px;
-}
 
 .others-container-interest-element{
   width: 90%;
