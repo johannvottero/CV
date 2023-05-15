@@ -497,7 +497,7 @@ align-items: end;
 
   .grid-container{
     flex-direction: column;
-    max-width: 576px;
+    max-width: 600px;
   }
 
   .A_Propos{
@@ -572,7 +572,7 @@ width: 100%;
 }
 
 .others-container {
-  width: 575px;
+  width: 600px;
 }
 
 .others-container-interest-element{
