@@ -479,7 +479,7 @@ font-weight: 400;
 }
 
 .others-container-interest-element{
-  width: 80%;
+  width: 100%;
 }
 
 .others-container-interest-element div p {
@@ -509,6 +509,14 @@ align-items: end;
 
 @media screen and (max-width: 576px) {
 
+  .main-container{
+    width: 100%;
+  }
+
+  .fa-solid{
+    font-size: 1.2rem;
+  }
+  
 body{
   font-size: 1.7rem;
 }
@@ -564,10 +572,14 @@ h4{
     display: flex;
     flex-direction: column;
     margin: 0;
+    width: 100%;
   }
 
 .others-container-languages {
   width: 100%;
+  padding: 0;
+  margin: 10% 0;
+
 }
 
   .A_Propos{
@@ -661,15 +673,21 @@ h4{
 
 
 .others-container-interest-element{
-  width: 90%;
+  width: 100%;
 }
 
+.others-container-interest{
+  margin: 0;
+}
+
+
 .others-container-languages-element{
-  display: block;
+ margin-bottom: 5%;
+ justify-content: space-between;
 }
 
 .others-container-languages-element-rating {
-  width: 165%;
+  /* width: 100%; */
 }
 
 .start{
@@ -706,6 +724,10 @@ h4{
 
 .experience-container-element-descriptionContainer__designation {
   margin-top: 12%;
+}
+
+.others-container{
+/*   padding-top: 35px; */
 }
 
 .others-container h2{
