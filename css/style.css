@@ -5,8 +5,10 @@
 }
 
 .main-container {
-  width: 100%;
-  display: grid;
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
   padding: 15px 20px;
 }
 
@@ -66,6 +68,13 @@ body {
 .header-container {
   color: white;
   font-weight: 500;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-container__picture{
+  display: flex;
+  width: 20%;
 }
 
 /* icons */
@@ -134,9 +143,9 @@ h4{
 
 .header-container-social{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap:30px;
-  padding-left: 50px;
+  margin: 2% 0;
 }
 
 .A_Propos{
@@ -164,7 +173,7 @@ h4{
 .header-container-personnal-info {
   display: flex;
   flex-direction: column;
-  /* margin-left: 25px; */
+  width: 70%;
 }
 
 .header-container-personnal-info-details__element {
@@ -177,7 +186,7 @@ h4{
 }
 
 .education-container-eduction-section-schools{
-  width: 50%;
+  width: 45%;
 }
 .education-container-eduction-section-skills{
   width: 50%;
@@ -198,7 +207,7 @@ h4{
   width: 45%;
   border-radius: 15px;
   margin-bottom: 5%;
-  height: 375px;
+  height: 330px;
 }
 
 .skill-box h3 {
@@ -210,7 +219,7 @@ h4{
 .education-container-eduction-section-schools-element{
   display: flex;
   justify-content: space-between;
-  padding: 4% 0;
+  padding: 3% 0;
   border-bottom: 1px solid grey;
 }
 
@@ -243,31 +252,31 @@ h4{
 }
 
  .sharepoint{
-  border-left: 130px solid white;
+  border-left: 100px solid white;
  }
  
  .AA{
-  border-left: 120px solid white;
+  border-left: 110px solid white;
  }
 
  .office{
-  border-left: 120px solid white;
+  border-left: 90px solid white;
  }
 
 .photoshop{
-  border-left: 70px solid white;
+  border-left: 50px solid white;
  }
 
 .agile {
-  border-left: 130px solid white;
+  border-left: 96px solid white;
 }
 
 .formation {
-  border-left: 150px solid white;
+  border-left: 120px solid white;
 }
 
  .gestion-projet {
-  border-left: 120px solid white;
+  border-left: 75px solid white;
  }
 
  .rc{
@@ -279,15 +288,15 @@ h4{
 }
 
 .html{
-  border-left: 120px solid white;
+  border-left: 100px solid white;
 }
 
 .js {
-  border-left: 60px solid white;
+  border-left: 45px solid white;
 }
 
 .react{
-  border-left: 50px solid white;
+  border-left: 35px solid white;
 }
 
 .git{
@@ -308,6 +317,10 @@ h4{
 
 .experience-container {
   display: flex; 
+}
+
+.experience-container-element {
+  width: 35%;
 }
 
 .experience-container-element-yearContainer{
@@ -332,14 +345,14 @@ font-weight: 400;
 }
 
 .start {
-  top: -40px;
-  left: 55px;
+  top: -4%;
+  left: 15%;
 
 }
 
 .ending{
-  top: -40px;
-  left: 260px;
+  top: -4%;
+  right: 15%;
 
 }
 .experience-container-element{
@@ -412,10 +425,6 @@ font-weight: 400;
   font-weight: 00;
 }
 
-.others-container-languages-element {
-
-}
-
 
 .others-container-languages-element-rating p{
   margin: 0;
@@ -437,11 +446,12 @@ font-weight: 400;
 .others-container-languages-element{
   display: flex;
   align-items: center;
+  margin-top: 4%;
 }
 
 .others-container-interest {
   display: flex;
-  flex-direction: column-reverse;
+
   justify-content: space-between;
   width: 100%;
   gap: 35px;
@@ -467,7 +477,7 @@ font-weight: 400;
 
 .experience-logo{
   position: absolute;
-  top: -70px;
+  top: -50px;
   border: 2px solid #F5613D;
   background-color: white;
   border-radius: 50%;
@@ -578,7 +588,7 @@ h4{
 .others-container-languages {
   width: 100%;
   padding: 0;
-  margin: 10% 0;
+  margin: 5% 0;
 
 }
 
@@ -624,7 +634,7 @@ h4{
  }
 
  .education-container-eduction-section-skills{
-  width: 95%;
+  width: 100%;
   margin: auto;
  }
 
@@ -644,7 +654,7 @@ h4{
 .experience-container-element-descriptionContainer{
   margin: auto;
   width: 100%;
-  height: 915px;
+  height: 940px;
 }
 
 .experience-container-element-yearContainer{
@@ -683,7 +693,7 @@ h4{
 
 
 .others-container-languages-element{
- margin-bottom: 5%;
+ margin-bottom: 3%;
  justify-content: space-between;
 }
 
@@ -692,6 +702,7 @@ h4{
 }
 
 .start{
+
   top: -5%;
   left: 20%;
 }
@@ -724,7 +735,8 @@ h4{
 }
 
 .experience-container-element-descriptionContainer__designation {
-  margin-top: 12%;
+  margin: 10% 0;
+  padding: 10% 0;
 }
 
 .others-container{
@@ -742,4 +754,8 @@ h4{
 /*   .main-container{
     width: 700px;
   } */
+
+  .others-container-interest-element div p{
+    margin: 3% 2% 0 0;
+  }
 }
