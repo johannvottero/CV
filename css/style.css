@@ -10,6 +10,10 @@
   padding: 15px 20px;
 }
 
+html{
+  min-width: 100vh;
+}
+
 body{
   min-width: 100vh;
   min-height: 100vh;
