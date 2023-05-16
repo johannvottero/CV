@@ -1,9 +1,19 @@
-.main-container {
-  width: 1100px;
-  margin: 3% auto;
-  display: grid;
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+.main-container {
+  width: 100%;
+  display: grid;
+  padding: 15px 20px;
+}
+
+body{
+  min-width: 100vh;
+  min-height: 100vh;
+}
 
 /* base */
 
@@ -26,11 +36,14 @@ h1 {
   font-weight: 400;
 }
 
+body{
+  width: 100%;
+}
 
 .primary-color
-{
-  color:#2383F4;  
+{ 
   background-color:#2383F4;
+  width: 100%;
 }
 
 .secondary-color{
@@ -49,8 +62,6 @@ body {
 .header-container {
   color: white;
   font-weight: 500;
-  display: grid;
-  grid-template-columns: 1fr 4fr 0.5fr;
 }
 
 /* icons */
@@ -78,10 +89,9 @@ body {
   color: white;
 }
 
-
-
 .background-color {
   background: linear-gradient(#000542, #0e59b1);
+  width: 100%;
 }
 
  .grid-container {
@@ -150,7 +160,7 @@ h4{
 .header-container-personnal-info {
   display: flex;
   flex-direction: column;
-  margin-left: 25px;
+  /* margin-left: 25px; */
 }
 
 .header-container-personnal-info-details__element {
@@ -293,8 +303,7 @@ h4{
 }
 
 .experience-container {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex; 
 }
 
 .experience-container-element-yearContainer{
@@ -399,7 +408,7 @@ font-weight: 400;
   font-weight: 00;
 }
 
-..others-container-languages-element {
+.others-container-languages-element {
 
 }
 
@@ -496,13 +505,16 @@ align-items: end;
 
 @media screen and (max-width: 576px) {
 
-body{
-  display: grid;
-}
-
 h3
 {
   font-size: 1rem;
+}
+
+.skill-box {
+  width: 30%;
+  border-radius: 15px;
+  margin-bottom: 5%;
+  height: 350px;
 }
 
   .main-container{
@@ -532,6 +544,7 @@ h3
 
   .header-container {
     width: 100%;
+    display: flex;
   }
   .header-container__picture {
     display: flex;
@@ -559,8 +572,7 @@ h3
  }
 
  .education-container-eduction-section-schools{
-  width: 90%;
-  margin: auto;
+  width: 100%;
  }
 
  .education-container-eduction-section-skills{
@@ -577,6 +589,7 @@ h3
 
 .experience-container-element-descriptionContainer{
   margin: auto;
+  width: 90%;
 }
 
 .education-container{
@@ -623,4 +636,11 @@ h3
 .others-container h2{
   margin-left: 0;
 }
+}
+
+@media screen and (max-width: 768px) {
+
+/*   .main-container{
+    width: 700px;
+  } */
 }
