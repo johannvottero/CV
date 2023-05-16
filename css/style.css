@@ -328,7 +328,7 @@ font-weight: 400;
 }
 
 .experience__title{
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .start {
@@ -583,7 +583,7 @@ h4{
 }
 
   .A_Propos{
-    width: 85%;
+    width: 100%;
   }
 
   .background-color{
@@ -643,7 +643,8 @@ h4{
 
 .experience-container-element-descriptionContainer{
   margin: auto;
-  width: 90%;
+  width: 100%;
+  height: 915px;
 }
 
 .experience-container-element-yearContainer{
@@ -691,13 +692,13 @@ h4{
 }
 
 .start{
-  top: -50px;
-  left: 200px;
+  top: -5%;
+  left: 20%;
 }
 
 .ending {
-  top: -50px;
-  left: 505px;
+  top: -5%;
+  left: 68%;
 }
 
 .experience-container-element-yearContainer p{
