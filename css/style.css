@@ -194,7 +194,7 @@ h4{
   width: 45%;
   border-radius: 15px;
   margin-bottom: 5%;
-  height: 325px;
+  height: 375px;
 }
 
 .skill-box h3 {
@@ -223,7 +223,7 @@ h4{
   border: 1px solid white;
   margin: 4% 4%;
   border-radius: 15px;
-  height: 15px;
+  height: 18px;
   position: relative;
 }
 
@@ -239,51 +239,51 @@ h4{
 }
 
  .sharepoint{
-  border-left: 80px solid white;
+  border-left: 130px solid white;
  }
  
  .AA{
-  border-left: 65px solid white;
+  border-left: 120px solid white;
  }
 
  .office{
-  border-left: 65px solid white;
+  border-left: 120px solid white;
  }
 
 .photoshop{
-  border-left: 30px solid white;
+  border-left: 70px solid white;
  }
 
 .agile {
-  border-left: 50px solid white;
+  border-left: 130px solid white;
 }
 
 .formation {
-  border-left: 75px solid white;
+  border-left: 150px solid white;
 }
 
  .gestion-projet {
-  border-left: 50px solid white;
+  border-left: 120px solid white;
  }
 
  .rc{
-  border-left: 50px solid white;
+  border-left: 90px solid white;
 }
 
 .RGPD {
-  border-left: 15px solid white;
+  border-left: 50px solid white;
 }
 
 .html{
-  border-left: 75px solid white;
+  border-left: 120px solid white;
 }
 
 .js {
-  border-left: 20px solid white;
+  border-left: 60px solid white;
 }
 
 .react{
-  border-left: 7px solid white;
+  border-left: 50px solid white;
 }
 
 .git{
@@ -505,17 +505,55 @@ align-items: end;
 
 @media screen and (max-width: 576px) {
 
+body{
+  font-size: 1.7rem;
+}
+
+#profil-picture {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  border: solid 7px white;
+}
+
+.fa-brands {
+  font-size: 70px;
+  color: white;
+}
+
+h2{
+  font-size: 2rem;
+}
 h3
 {
-  font-size: 1rem;
+  font-size: 1.8rem;
+}
+
+h4{
+  font-size: 1.3rem;
 }
 
 .skill-box {
-  width: 30%;
+  width: 33%;
   border-radius: 15px;
   margin-bottom: 5%;
-  height: 350px;
+  height: 450px;
 }
+
+.loading-bar__AN{
+  border: 1px solid white;
+  margin: 5% 4%;
+  border-radius: 15px;
+  height: 25px;
+  position: relative;
+}
+
+.black{
+  height:25px;
+  width:20%;
+  height: 25px;
+}
+
 
   .main-container{
     width: auto;
@@ -527,12 +565,6 @@ h3
 .others-container-languages {
   width: 100%;
 }
-
-
-  .others-container {
-    
-  }
-
 
   .A_Propos{
     width: 85%;
@@ -576,13 +608,19 @@ h3
  }
 
  .education-container-eduction-section-skills{
-  width: 90%;
+  width: 95%;
   margin: auto;
  }
 
  .education-container-eduction-section-schools-container {
   margin: 0;
+  font-size: 1.7rem;
 }
+
+.education-container-eduction-section-schools span{
+  font-size: 1.7rem;
+}
+
 .education-container-eduction-section-skills-container{
   margin: 0;
 }
@@ -590,6 +628,11 @@ h3
 .experience-container-element-descriptionContainer{
   margin: auto;
   width: 90%;
+}
+
+.experience-container-element-yearContainer{
+  height: 100px;
+  width: 100px;
 }
 
 .education-container{
@@ -605,6 +648,8 @@ h3
 .experience-container-element{
   width: 100%;
 }
+
+
 
 .experience-container-element-descriptionContainer{
   padding: 0;
@@ -624,18 +669,45 @@ h3
 }
 
 .start{
-  top: -25px;
-  left: 145px;
+  top: -50px;
+  left: 200px;
 }
 
 .ending {
-  top: -25px;
-  left: 350px;
+  top: -50px;
+  left: 505px;
+}
+
+.experience-container-element-yearContainer p{
+  font-size: 1.3rem;
+}
+.experience-logo{
+  height: 150px;
+  width: 150px;
+}
+
+.bouygues img{
+  height: 110px;
+  width: 160px;
+}
+
+.inetum img {
+  height: 25px;
+}
+
+.hec img{
+  height: 120px;
+  width: 140px;
+}
+
+.experience-container-element-descriptionContainer__designation {
+  margin-top: 12%;
 }
 
 .others-container h2{
   margin-left: 0;
 }
+
 }
 
 @media screen and (max-width: 768px) {
