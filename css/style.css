@@ -42,9 +42,9 @@ h1 {
   font-weight: 400;
 }
 
-body{
+/* body{
   width: 100%;
-}
+} */
 
 .primary-color
 { 
@@ -71,6 +71,7 @@ body {
   display: flex;
   flex-direction: row;
 }
+
 
 .header-container__picture{
   display: flex;
@@ -150,7 +151,7 @@ h4{
 
 .A_Propos{
   border-top: 1px solid white;
-  padding-top: 3%;
+  padding-top: 5%;
 }
 
 .header-container-social__element:hover {
@@ -451,7 +452,6 @@ font-weight: 400;
 
 .others-container-interest {
   display: flex;
-
   justify-content: space-between;
   width: 100%;
   gap: 35px;
@@ -517,16 +517,26 @@ align-items: end;
   color: white;
 }
 
+/* Mobile version 576px */
 @media screen and (max-width: 576px) {
 
   .main-container{
     width: 100%;
   }
 
+  #name{
+    display: flex;
+    justify-content: center;
+  }
+
   .fa-solid{
     font-size: 1.2rem;
   }
   
+  .header-container-personnal-info-details__element {
+    margin: 15px 0 0 0;
+  }
+
 body{
   font-size: 1.7rem;
 }
@@ -576,6 +586,9 @@ h4{
   height: 25px;
 }
 
+.header-container-personnal-info {
+  width: 100%;
+}
 
   .main-container{
     width: auto;
@@ -594,6 +607,7 @@ h4{
 
   .A_Propos{
     width: 100%;
+    margin-top: 40px;
   }
 
   .background-color{
@@ -654,7 +668,7 @@ h4{
 .experience-container-element-descriptionContainer{
   margin: auto;
   width: 100%;
-  height: 940px;
+  height: 1045px;
 }
 
 .experience-container-element-yearContainer{
@@ -689,6 +703,7 @@ h4{
 
 .others-container-interest{
   margin: 0;
+  flex-direction: column-reverse;
 }
 
 
@@ -718,6 +733,7 @@ h4{
 .experience-logo{
   height: 150px;
   width: 150px;
+  top: -75px;
 }
 
 .bouygues img{
@@ -735,7 +751,7 @@ h4{
 }
 
 .experience-container-element-descriptionContainer__designation {
-  margin: 10% 0;
+  margin: 10% 0 5% 0;
   padding: 10% 0;
 }
 
