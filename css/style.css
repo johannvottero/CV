@@ -243,7 +243,6 @@ h4{
 
 .black{
   height:25px;
-  width:20%;
   background-color: white;
   border-radius: 16px;
   height: 17px;
@@ -253,55 +252,55 @@ h4{
 }
 
  .sharepoint{
-  border-left: 100px solid white;
+  width: 60%;
  }
  
  .AA{
-  border-left: 110px solid white;
+  width: 65%;
  }
 
  .office{
-  border-left: 90px solid white;
+  width: 55%;
  }
 
 .photoshop{
-  border-left: 50px solid white;
+  width: 30%;
  }
 
 .agile {
-  border-left: 96px solid white;
+  width: 60%;
 }
 
 .formation {
-  border-left: 120px solid white;
+  width: 75%;
 }
 
  .gestion-projet {
-  border-left: 75px solid white;
+  width: 55%;
  }
 
  .rc{
-  border-left: 90px solid white;
+  width: 65%;
 }
 
 .RGPD {
-  border-left: 50px solid white;
+  width: 30%;
 }
 
 .html{
-  border-left: 100px solid white;
+  width: 60%;
 }
 
 .js {
-  border-left: 45px solid white;
+  width: 25%;
 }
 
 .react{
-  border-left: 35px solid white;
+  width: 20%;
 }
 
 .git{
-  border-left: 20px solid white;
+  width: 20%;
 }
 
 .education-container-eduction-section-skills{
@@ -582,7 +581,6 @@ h4{
 
 .black{
   height:25px;
-  width:20%;
   height: 25px;
 }
 
@@ -766,12 +764,24 @@ h4{
 }
 
 @media screen and (max-width: 768px) {
-
-/*   .main-container{
-    width: 700px;
-  } */
-
-  .others-container-interest-element div p{
-    margin: 3% 2% 0 0;
+  body{
+    width: 130vh;
   }
 }
+  @media screen and (min-width: 769px) and (max-width: 992px ) {
+    body{
+      width: 130%;
+    }
+  }
+  @media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+      min-width: 130%;
+    }
+  }
+
+/*     min-width: 100vh;
+    min-height: 100vh;
+    width: 100%; */
+  }
+
+  
