@@ -151,7 +151,7 @@ h4{
 
 .A_Propos{
   border-top: 1px solid white;
-  padding-top: 5%;
+  padding: 5% 0;
 }
 
 .header-container-social__element:hover {
