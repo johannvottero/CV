@@ -163,6 +163,7 @@ h4{
   height: 170px;
   width: 170px;
   border: solid 3px white;
+  object-fit: cover;
 }
 
 .formation-icon {
@@ -569,7 +570,7 @@ h4{
   width: 30%;
   border-radius: 15px;
   margin-bottom: 5%;
-  height: 500px;
+  height: 450px;
 }
 
 .loading-bar__AN{
@@ -768,11 +769,17 @@ h4{
     max-width: 100vh;
   }
 
+  body{
+    max-width: 100vh;
+  }
+  .main-container{
+    width: 100%;
+  }
 
   
 }
 @media screen and (min-width: 768px) and (max-width: 1440px){
-  html{
+  body{
     min-width: 130vh;
   }
   
